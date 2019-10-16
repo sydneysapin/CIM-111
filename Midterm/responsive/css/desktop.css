@@ -28,7 +28,10 @@ footer{
 background-color: Cornsilk;
 text-align: center;
 width: auto;
-height: auto;}
+height: auto;
+font-size: 8px;
+color: rosybrown
+}
 
 nav{
 background-color: Cornsilk;
@@ -87,6 +90,8 @@ display: block;
 grid-template-columns: 200px;
 /* float: right; */
 }
+
+
 
 .float img{
 /* float: right; */
