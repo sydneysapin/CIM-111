@@ -1,0 +1,33 @@
+@import "desktop.css";
+header{
+
+width: 400px;
+}
+
+main{
+width: 400px;
+}
+
+footer{
+  width: 400px;
+}
+
+nav ul li{
+  display: block;
+}
+
+#grid2{
+
+width: 300px;
+margin: 0 auto;
+}
+
+#Hobbies{
+  width: 380px;
+  display: block;
+
+}
+
+#Hobbies img{
+  width: 380px;
+}
