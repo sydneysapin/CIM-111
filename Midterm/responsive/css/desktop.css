@@ -1,0 +1,174 @@
+header{
+background-color: Cornsilk;
+width: auto;
+height: auto;
+padding: 30px 20px 20px 20px;
+text-align: center;
+margin: 0px auto 0px auto;
+margin-top: -20px;}
+
+main{
+background-color: rgb(255, 182, 193, 0.3);
+width: 900px;
+height: auto;
+padding: 30px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+
+
+margin-top: 5px;
+margin-right: auto;
+margin-bottom: 20px;
+margin-left: auto;
+
+}
+footer{
+background-color: Cornsilk;
+text-align: center;
+width: auto;
+height: auto;}
+
+nav{
+background-color: Cornsilk;
+width: 800px;
+text-align: center;
+margin-top: 10px;
+margin-right: auto;
+margin-bottom: 20px;
+margin-left: auto;
+}
+
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 100px;
+padding: 10px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: tan;
+font-size: 20px
+}
+
+nav ul li:hover{
+background-color: rosybrown;
+}
+
+#grid1{
+width: 800px;
+height: 100px;
+margin: 20px auto;
+display: grid;
+grid-template-rows: 125px;
+grid-template-columns: 200px 580px;
+grid-column-gap: 20px;
+text-align: center;
+
+}
+
+#grid2{
+width: 800px;
+height: 350px;
+margin: 60px 60px;
+display:grid;
+grid-template-rows: 400px;
+grid-template-columns: 400px 390px;
+grid-column-gap: 10px;
+}
+
+#grid2 img{
+width: 600px;
+margin: 0 auto;
+display: block;
+grid-template-columns: 200px;
+/* float: right; */
+}
+
+.float img{
+/* float: right; */
+}
+
+#grid3{
+width: 800px;
+height: 650px;
+margin: 60px auto;
+display:grid;
+grid-template-rows: 380px;
+grid-template-columns: 300px 266px 266px;
+grid-column-gap: 100px;
+}
+
+#grid3 img{
+width: 320px;
+margin: 0 auto;
+display: block;
+/* float: right; */
+}
+
+#grid4{
+width: 800px;
+height: 500px;
+margin: 60px auto;
+display:grid;
+grid-template-rows: 380px;
+grid-template-columns: 266px 266px 266px;
+grid-column-gap: 10px;
+}
+
+#grid4 img{
+width: 266px;
+height: 390px;
+margin: 0 auto;
+display: block;
+/* float: right; */
+}
+
+#grid5{
+width: 800px;
+height: 100px;
+margin: 60px;
+display:inline-block;
+grid-template-rows: 400px;
+}
+
+
+#grid6{
+width: 800px;
+height: 60px;
+margin: 20px auto;
+display: grid;
+grid-template-rows: 125px;
+grid-template-columns: 580px;
+grid-column-gap: 20px;
+text-align: left;
+}
+
+
+.title{
+font-family: 'Mansalva', cursive;
+font-size: 60px;
+color:rosybrown;
+}
+
+.menu{
+font-family: 'Noto Serif',serif;
+font-size: 20px;
+}
+
+.header{
+font-family: 'Josefin Sans', sans-serif;
+color: rosybrown;
+}
+
+.littleheader{
+font-family: 'Josefin Sans', sans-serif;
+color: plum;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
