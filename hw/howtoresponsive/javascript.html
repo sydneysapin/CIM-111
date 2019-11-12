@@ -68,9 +68,15 @@
 
 
       <script src="js/jquery-3.3.1.min.js"></script>
+      <script type="js/photogallery.js" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
       <script type="text/javascript">
           $(document).ready(function(){
                 //all js goes in here
+
+            $("#single-item").slick(function(){
+
+            });
+
             $("#colorChange").click(function(){
                   $("body").css("background-color","Cornsilk");
             });//end of colorChange.click
@@ -128,7 +134,6 @@
             $("#clickTitle").click(function(){
             $("h2").hide();
                       });
-
 
 
 
