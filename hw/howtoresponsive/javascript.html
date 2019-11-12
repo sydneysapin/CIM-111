@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Sydney's HW: Eating Through Prague</title>
 
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 600px)">
+
+
   <style media="screen">
 
-
-
   </style>
-  </head>
 
+  </head>
 
   <body>
 
@@ -19,11 +20,14 @@
     </header>
 
 
-<section>
+
+<div id="panel-example">
+
     <h2 id="clickTitle">Vítejte v Praha!</h2>
     <p id="info3">Prague, the capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed “the City of a Hundred Spires,” it's known for its Old Town Square, the heart of its historic core, with colorful baroque buildings, Gothic churches and the medieval Astronomical Clock, which gives an animated hourly show. Completed in 1402, pedestrian Charles Bridge is lined with statues of Catholic saints. With so much to see, and especially EAT, check out need to know cuisine tips from a student who lived there for a year!</p>
     <p id="addInfo"></p>
-</section>
+
+</div>
 
 <section>
 
@@ -64,18 +68,32 @@
 
 </section>
 
+  <script src="js/scotchPanels.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+
+      $("#panel-example").scotchPanel({
+      containerSelector: 'body', // As a jQuery Selector
+      direction: "left", // Make it toggle in from the left
+      duration: "2000", // Speed in ms how fast you want it to be
+      transition: "ease-in-out", // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+      clickSelector: ".toggle-panel", // Enables toggling when clicking elements of this class
+      distanceX: '50%', // Size fo the toggle
+      enableEscapeKey: true // Clicking Esc will close the panel
+      });
+
+    });
+    </script>
+
 
 
 
       <script src="js/jquery-3.3.1.min.js"></script>
-      <script type="js/photogallery.js" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
       <script type="text/javascript">
           $(document).ready(function(){
                 //all js goes in here
 
-            $("#single-item").slick(function(){
 
-            });
 
             $("#colorChange").click(function(){
                   $("body").css("background-color","Cornsilk");
@@ -141,8 +159,8 @@
       </script>
 
 
+</main>
 
 <footer> Sydney Sapin CIM 111 JQuery HW</footer>
-
-  </body>
+</body>
 </html>
