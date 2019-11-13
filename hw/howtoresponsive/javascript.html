@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <title>Sydney's HW: Eating Through Prague</title>
 
-    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
+
 
 
   <style media="screen">
+
 
   </style>
 
@@ -21,7 +26,7 @@
 
 
 
-<div id="panel-example">
+<div>
 
     <h2 id="clickTitle">Vítejte v Praha!</h2>
     <p id="info3">Prague, the capital city of the Czech Republic, is bisected by the Vltava River. Nicknamed “the City of a Hundred Spires,” it's known for its Old Town Square, the heart of its historic core, with colorful baroque buildings, Gothic churches and the medieval Astronomical Clock, which gives an animated hourly show. Completed in 1402, pedestrian Charles Bridge is lined with statues of Catholic saints. With so much to see, and especially EAT, check out need to know cuisine tips from a student who lived there for a year!</p>
@@ -29,70 +34,71 @@
 
 </div>
 
-<section>
+
 
 <h2>Food to Eat: The Prague Food Tour of Your Dreams</h2>
 
 <ul>
+  <div class="single-item">
   <h3>Breakfast</h3>
+
   <ol>
     <li> <h3>Cafe Savoy</h3>
-      <img id="info1" src="https://images.unsplash.com/photo-1466689923919-dbea2d43d41e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1119&q=80" alt="image2">
+      <img data-slidr="one" id="info1" src="https://images.unsplash.com/photo-1466689923919-dbea2d43d41e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1119&q=80" alt="image2">
       <p id="addInfo1"></p>
     </li>
   </ol>
+
+
   <h3>Lunch</h3>
+
     <ol>
         <li> <h3>Lokal</h3>
-          <img id="info2" src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="image3">
+          <img data-slidr="two" id="info2" src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="image3">
           <p id="addInfo2"></p>
         </li>
+
         <li> <h3>Polévkárna Paní Mančo</h3>
-          <img id="info5" src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="image4">
+          <img data-slidr="three" id="info5" src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="image4">
           <p id="addInfo5"></p>
         </li>
     </ol>
+
   <h3>Dessert</h3>
     <ol>
       <li><h3>Cukrarna Mysak</h3>
-        <img id="info4" src="https://images.unsplash.com/photo-1560643123-9157226100d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="image5">
+        <img data-slidr="four" id="info4" src="https://images.unsplash.com/photo-1560643123-9157226100d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="image5">
         <p id="addInfo4"></p>
       </li>
       <li> <h3>Good Food Coffee & Bakery</h3>
-        <img id="info6"src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/28616f7829083.560b25f74204b.jpg" alt="image6">
+        <img data-slidr="five" id="info6"src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/28616f7829083.560b25f74204b.jpg" alt="image6">
         <p id="addInfo6"></p>
       </li>
     </ol>
+
+</div>
 </ul>
 
 
-</section>
 
-  <script src="js/scotchPanels.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-
-      $("#panel-example").scotchPanel({
-      containerSelector: 'body', // As a jQuery Selector
-      direction: "left", // Make it toggle in from the left
-      duration: "2000", // Speed in ms how fast you want it to be
-      transition: "ease-in-out", // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
-      clickSelector: ".toggle-panel", // Enables toggling when clicking elements of this class
-      distanceX: '50%', // Size fo the toggle
-      enableEscapeKey: true // Clicking Esc will close the panel
-      });
-
-    });
-    </script>
-
+<!-- <div id="slidr-img" style="display: inline-block">
+  <img data-slidr="one" src="https://images.unsplash.com/photo-1466689923919-dbea2d43d41e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1119&q=80">
+  <img data-slidr="two" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/28616f7829083.560b25f74204b.jpg">
+  <img data-slidr="three" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/28616f7829083.560b25f74204b.jpg">
+</div> -->
 
 
 
       <script src="js/jquery-3.3.1.min.js"></script>
+
+      <script src="js/slick.js"></script>
       <script type="text/javascript">
           $(document).ready(function(){
                 //all js goes in here
 
+        //slidr.create("slidr-img").start();
+
+        $('.single-item').slick();
 
 
             $("#colorChange").click(function(){
