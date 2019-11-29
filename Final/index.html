@@ -6,6 +6,183 @@
     <meta name="author"content="Sydney Sapin">
     <meta name="description" content="This website is a marketing/ e-commerce site for a yoga studio in Miami">
     <meta name="keywords" content="ecommerce,fitness,yoga,website,final,blacklight">
+
+    <style media="screen">
+
+    header{
+      background-color: white;
+      width: auto;
+      height: auto;
+      text-align: center;
+      margin: 0px auto 0px auto;
+      margin-top: -30px;
+      padding: 10px;
+      text-align: center;
+      font-size: 25px;
+      font-family:
+      }
+
+    main{
+      background-color: black;
+      width: auto;
+      color: white;
+    }
+
+    footer{
+      background-color: black;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      }
+
+      nav{
+      background-color: black;
+      width: auto;
+      text-align: center;
+      margin-top: 10px;
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-left: auto;
+      }
+
+
+      nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 80px;
+      padding: 10px;
+      }
+
+      nav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px
+      }
+
+      nav ul li:hover{
+      background-color: none;
+      text-decoration: line-through;
+      }
+
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+
+      #grid1{
+        grid-template-columns: 410px 460px 450px;
+        grid-template-rows: 800px 100px;
+        width: 800px;
+        height: auto;
+        display: grid;
+        grid-column-gap: 20px;
+        padding-left: 20px;
+        background-color: white;
+        color: black;
+        }
+
+      #grid1 img{
+        width: 350px;
+        margin: 0 auto;
+        display: block;
+        grid-template-columns: 200px;
+        /* float: right; */
+
+      }
+
+        #grid2{
+        width: 800px;
+        height: auto;
+        margin: 60px;
+        grid-template-rows: 200px;
+        grid-template-columns: 390px;
+        display: block;
+        padding-bottom: 900px;
+        }
+
+        #grid3{
+        width: 1000px;
+        height: auto;
+        display: block;
+        margin: 10px;
+        grid-template-rows: 600px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+        background-color: white;
+        color: black;
+        background-size: auto;
+        }
+
+        #grid4{
+            width: 600px;
+            height: auto;
+            margin: 0 auto 0;
+            display: block;
+            grid-template-rows: 1fr; /* NOTE: a frame or fr is determined by the size of the largest element  */
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 10px;
+            text-align: center;
+          }
+
+          #grid5{
+          width: 400px;
+          height: 300px;
+          display: block;
+          margin-left: 300px;
+          margin-bottom: 300px;
+          grid-template-rows: 600px;
+          text-align: center;
+          padding-top: 10px;
+          padding-left: 200px;
+          padding-right: 200px;
+          background-color: white;
+          color: black;
+          }
+
+          #grid5 img{
+            width: 400px;
+          }
+
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+
+          #grid4 img{
+            width: 500px;
+          }
+
+#gallery {
+    margin: 5px;
+    border: none;
+    float:  right;
+    width: 300px;
+      }
+
+#gallery:hover {
+  border: 2px solid #777;
+}
+
+#gallery img{
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+#desc{
+  text-align: center;
+  }
+
+h2{
+  text-align: center;
+}
+
+    </style>
+
   </head>
 
   <body>
@@ -91,14 +268,22 @@
 
   <h2 id="Classes">GLOflo Classes</h2>
 
-  <img src="https://images.unsplash.com/photo-1563057349-a77df1c406ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="image4">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <section id="gallery">
+  <img id="grid2img"src="https://images.unsplash.com/photo-1563057349-a77df1c406ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="image4" width="600" height="400">
+  <p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</section>
 
-  <img src="https://images.unsplash.com/photo-1552819471-ab8763db1aad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image5">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <section id="gallery">
 
-  <img src="https://images.unsplash.com/photo-1568772408996-dfb89b39a784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=393&q=80" alt="image6">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <img id="grid2img"src="https://images.unsplash.com/photo-1552819471-ab8763db1aad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image5">
+  <p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+</section>
+
+<section id="gallery">
+  <img id="grid2img" src="https://images.unsplash.com/photo-1568772408996-dfb89b39a784?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=393&q=80" alt="image6">
+  <p id="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</section>
 
 </section>
 
@@ -114,22 +299,22 @@
 
 </section>
 
-<section id="grid2">
+<section id="grid4">
 
 <h2 id="Shop">Shop Our Swag!</h2>
 
-<img src="https://images.unsplash.com/photo-1515846515008-eaf8eccbace8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image7">
+<img id="grid4sectionImage" src="https://images.unsplash.com/photo-1515846515008-eaf8eccbace8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="image7" class="center">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-<img src="https://images.unsplash.com/photo-1521866337281-e7207a7159c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="image8">
+<img src="https://images.unsplash.com/photo-1521866337281-e7207a7159c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="image8" class="center">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-<img src="https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="image9">
+<img src="https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="image9" class="center">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 </section>
 
-<section>
+<section id="grid5">
   <h1>CLICK HERE TO JOIN</h1>
   <img id="Sign" src="https://images.unsplash.com/photo-1554290712-e640351074bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="image10">
 </section>
