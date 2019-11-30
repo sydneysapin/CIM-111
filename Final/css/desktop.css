@@ -8,7 +8,13 @@ header{
   padding: 10px;
   text-align: center;
   font-size: 40px;
-  font-family:
+  font-family: 'Bebas Neue', sans-serif;
+  }
+
+
+  p{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
   }
 
 main{
@@ -102,6 +108,7 @@ footer{
     background-color: white;
     color: black;
     background-size: auto;
+    font-weight: bolder;
     }
 
     #grid4{
@@ -183,7 +190,7 @@ text-align: center;
 h2{
 text-align: center;
 font-size: 30px;
-font-family:
+font-family: 'Fjalla One', sans-serif;
 }
 
 h3{
@@ -192,4 +199,10 @@ font-size: 22px;
 margin-left: 28px;
 font-weight: bolder;
 text-decoration: underline;
+font-family: 'Fjalla One', sans-serif;
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
