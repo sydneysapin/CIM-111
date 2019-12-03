@@ -3,12 +3,25 @@ header{
   width: 400px;
 }
 
+h2{
+  text-align: center;
+}
+
+main{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+}
 
 footer{
   width: 400px;
   height: 800px;
-  display: inline-block;
+  display: block;
   text-align: center;
+  margin: 0 auto;
   background-position: center;
 }
 
@@ -27,23 +40,31 @@ nav ul li{
 
 #grid1{
   width: 200px;
-  height: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 200px;
   text-align: center;
-  display: inline-block;
-  margin: auto;
 }
 
 #grid1 img{
-  width: 400px;
+  width: 200px;
   height: auto;
-  float: right;
-  grid-column: 1fr;
+  margin: 0 auto;
+  display:block;
+  padding-right: 60px;
+  text-align: center;
 }
 
 #grid2{
   width: 200px;
-  height: 840px;
-  display: inline-block;
+  height: 700px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 150px;
+  text-align: center;
 }
 
 #grid2img{
@@ -54,11 +75,14 @@ nav ul li{
 
 
 #grid3{
-width: 380px;
-height: 300px;
-display:inline-block;
-text-align: center;
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 50px;
 }
+
 
 
 #grid4{
@@ -77,15 +101,69 @@ display: block;
 }
 
 #grid5{
-width: 300px;
-height: 400px;
-display:block;
+  width: 190px;
+  float: right;
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#grid5 img{
+  width: 210px;
+  height: auto;
+  margin: 0 auto;
+  display:block;
+  text-align: center;
+  padding-right: 60px;
 }
 
 
 #grid6{
 width: 300px;
-height: 800px;
+height: auto;
 display: block;
+margin: 0 auto;
 text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 60px;
+}
+
+#gallery {
+margin: 5px;
+border: none;
+float:  right;
+width: 300px;
+  }
+
+#gallery:hover {
+border: 2px solid #777;
+}
+
+#gallery img{
+width: 300px;
+height: auto;
+display: inline-block;
+text-align: center;
+margin: 0 auto;
+}
+
+#desc{
+text-align: center;
+}
+
+h2{
+text-align: center;
+font-size: 30px;
+font-family: 'Fjalla One', sans-serif;
+}
+
+h3{
+text-align: center;
+font-size: 22px;
+margin-left: 28px;
+font-weight: bolder;
+text-decoration: underline;
+font-family: 'Fjalla One', sans-serif;
 }
