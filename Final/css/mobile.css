@@ -107,6 +107,7 @@ display: block;
   display: block;
   margin: 10px auto;
   text-align: center;
+  padding-left: 100px;
 }
 
 #grid5 img{
