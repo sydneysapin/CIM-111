@@ -93,6 +93,7 @@ footer{
     grid-template-columns: 390px;
     display: block;
     padding-bottom: 900px;
+    padding-left: 250px;
     }
 
     #grid2 img{
